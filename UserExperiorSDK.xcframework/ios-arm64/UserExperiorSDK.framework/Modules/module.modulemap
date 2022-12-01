@@ -1,0 +1,17 @@
+framework module UserExperiorSDK {
+    umbrella header "UserExperiorSDK.h"
+    module * { export * }
+    export *
+    
+    explicit framework module Private {
+        umbrella header "UserExperiorPrivateHeaders.h"
+        
+        module * { export * }
+        export *
+    }
+}
+
+module UserExperiorSDK.Swift {
+  header "UserExperiorSDK-Swift.h"
+  requires objc
+}
