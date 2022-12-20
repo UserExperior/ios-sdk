@@ -1,0 +1,72 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
+// swift-module-flags: -target x86_64-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name UserExperiorSDK
+import CoreGraphics.CGGeometry
+import CommonCrypto
+import CoreGraphics
+import CoreTelephony
+import CoreVideo
+import CrashReporter
+import Darwin
+import Dispatch
+import Foundation
+import ImageIO
+import MapKit
+import MobileCoreServices
+import UserExperiorSDK.Private
+import Swift
+import SystemConfiguration
+import UIKit
+@_exported import UserExperiorSDK
+import VideoToolbox
+import WebKit
+import _Concurrency
+import os.log
+import os
+@objc(UserExperiorDelegate) public protocol UserExperiorDelegate : ObjectiveC.NSObjectProtocol {
+  @objc optional func userExperiorSessionWillStart()
+  @objc optional func userExperiorSessionDidStart()
+  @available(*, deprecated, message: "Use userExperiorSessionDidStart instead.")
+  @objc optional func userExperiorSessionStarted()
+}
+@_inheritsConvenienceInitializers @objc(UserExperior) public class UserExperior : ObjectiveC.NSObject {
+  @objc(startRecordingWithVersionKey:) public class func startRecording(_ versionKey: Swift.String)
+  @objc(startRecordingWithVersionKey:fw:sv:) public class func startRecording(_ versionKey: Swift.String, _ fw: Swift.String, _ sv: Swift.String)
+  @objc(stopRecording) public class func stopRecording()
+  @objc(pauseRecording) public class func pauseRecording()
+  @objc(resumeRecording) public class func resumeRecording()
+  @objc(isRecording) public class var isRecording: Swift.Bool {
+    @objc get
+  }
+  @objc(setUserIdentifier:) public class func setUserIdentifier(_ userIdentifier: Swift.String)
+  @objc(setUserProperties:) public class func setUserProperties(_ properties: [Swift.String : Any])
+  @objc(logEventWithName:) public class func logEvent(_ eventName: Swift.String)
+  @objc(logEventWithName:properties:) public class func logEvent(_ eventName: Swift.String, properties: [Swift.String : Any])
+  @objc(logMessageWithName:) public class func logMessage(_ messageName: Swift.String)
+  @objc(logMessageWithName:properties:) public class func logMessage(_ messageName: Swift.String, properties: [Swift.String : Any])
+  @objc(startScreenWithName:) public class func startScreen(_ screenName: Swift.String)
+  @available(*, deprecated, message: "Use startTimerWithName:properties: instead. In case of no property pass empty object as a properties.")
+  @objc(startTimerWithName:) public class func startTimer(_ timerName: Swift.String)
+  @objc(startTimerWithName:properties:) public class func startTimer(_ timerName: Swift.String, properties: [Swift.String : Any])
+  @available(*, deprecated, message: "Use stopTimerWithName:properties: instead. In case of no property pass empty object as a properties.")
+  @objc(stopTimerWithName:) public class func stopTimer(_ timerName: Swift.String)
+  @objc(stopTimerWithName:properties:) public class func stopTimer(_ timerName: Swift.String, properties: [Swift.String : Any])
+  @objc(markSensitiveViewsWithViewToSecure:) public class func markSensitiveViews(_ viewsToSecure: Foundation.NSArray)
+  @objc(unmarkSensitiveViewsWithViewToUnBlock:) public class func unmarkSensitiveViews(_ viewsToUnblock: Foundation.NSArray)
+  @objc(unmarkAllSensitives) public class func unmarkAllSensitives()
+  @objc(exposeSensitiveViewsWithViewsToExpose:) public class func exposeSensitiveViews(_ viewsToExpose: Foundation.NSArray)
+  @objc(displayConsentRequest) public class func displayConsentRequest()
+  @objc(consentOptIn) public class func consentOptIn()
+  @objc(consentOptOut) public class func consentOptOut()
+  @objc(getConsentStatus) public class var getConsentStatus: Swift.Bool {
+    @objc get
+  }
+  @objc(getOptOutStatus) public class var getOptOutStatus: Swift.Bool {
+    @objc get
+  }
+  @objc(getSessionUrlWithPlatformName:) public class func getSessionUrl(_ platformName: Swift.String) -> Swift.String
+  @objc(setDelegate:) public class func setDelegate(_ delegate: UserExperiorSDK.UserExperiorDelegate)
+  @objc(activateThirdPartyAnalyticsMonitor) public class func activateThirdPartyAnalyticsMonitor()
+  @objc override dynamic public init()
+  @objc deinit
+}
