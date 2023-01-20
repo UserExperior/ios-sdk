@@ -42,7 +42,9 @@ import os
   @objc(setUserProperties:) public class func setUserProperties(_ properties: [Swift.String : Any])
   @objc(logEventWithName:) public class func logEvent(_ eventName: Swift.String)
   @objc(logEventWithName:properties:) public class func logEvent(_ eventName: Swift.String, properties: [Swift.String : Any])
+  @available(*, deprecated, message: "Use logEventWithName: instead.")
   @objc(logMessageWithName:) public class func logMessage(_ messageName: Swift.String)
+  @available(*, deprecated, message: "Use logEventWithName:properties: instead.")
   @objc(logMessageWithName:properties:) public class func logMessage(_ messageName: Swift.String, properties: [Swift.String : Any])
   @objc(startScreenWithName:) public class func startScreen(_ screenName: Swift.String)
   @available(*, deprecated, message: "Use startTimerWithName:properties: instead. In case of no property pass empty object as a properties.")
@@ -55,7 +57,6 @@ import os
   @objc(unmarkSensitiveViewsWithViewToUnBlock:) public class func unmarkSensitiveViews(_ viewsToUnblock: Foundation.NSArray)
   @objc(unmarkAllSensitives) public class func unmarkAllSensitives()
   @objc(exposeSensitiveViewsWithViewsToExpose:) public class func exposeSensitiveViews(_ viewsToExpose: Foundation.NSArray)
-  @objc(displayConsentRequest) public class func displayConsentRequest()
   @objc(consentOptIn) public class func consentOptIn()
   @objc(consentOptOut) public class func consentOptOut()
   @objc(getConsentStatus) public class var getConsentStatus: Swift.Bool {

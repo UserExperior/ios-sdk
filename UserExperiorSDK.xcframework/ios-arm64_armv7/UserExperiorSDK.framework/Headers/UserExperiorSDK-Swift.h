@@ -321,7 +321,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isRecording;)
 /// Max messageName limit is 250 chars only
 /// \param messageName A string value of custom Message
 ///
-+ (void)logMessageWithName:(NSString * _Nonnull)messageName;
++ (void)logMessageWithName:(NSString * _Nonnull)messageName SWIFT_DEPRECATED_MSG("Use logEventWithName: instead.");
 /// Log a custom Message with along its Properties
 /// note:
 /// Max messageName limit is 250 chars only
@@ -329,7 +329,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isRecording;)
 ///
 /// \param properties A dictionary of custom Message Properties
 ///
-+ (void)logMessageWithName:(NSString * _Nonnull)messageName properties:(NSDictionary<NSString *, id> * _Nonnull)properties;
++ (void)logMessageWithName:(NSString * _Nonnull)messageName properties:(NSDictionary<NSString *, id> * _Nonnull)properties SWIFT_DEPRECATED_MSG("Use logEventWithName:properties: instead.");
 /// UserExperior SDK automatically detects ViewController and defines them as screens.
 /// However, If you have used subviews added in the existing ViewController, then we recommend to use the startScreen() method.
 /// This API allows you to manually define subviews that will be missed during auto-capturing.
@@ -391,8 +391,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isRecording;)
 /// \param viewsToExpose An array of views you want to expose.
 ///
 + (void)exposeSensitiveViewsWithViewsToExpose:(NSArray * _Nonnull)viewsToExpose;
-/// Displays consent request dialog to the user
-+ (void)displayConsentRequest;
 /// User Opted-in for user recording permission
 + (void)consentOptIn;
 /// User Opted-out for user recording permission
@@ -762,7 +760,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isRecording;)
 /// Max messageName limit is 250 chars only
 /// \param messageName A string value of custom Message
 ///
-+ (void)logMessageWithName:(NSString * _Nonnull)messageName;
++ (void)logMessageWithName:(NSString * _Nonnull)messageName SWIFT_DEPRECATED_MSG("Use logEventWithName: instead.");
 /// Log a custom Message with along its Properties
 /// note:
 /// Max messageName limit is 250 chars only
@@ -770,7 +768,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isRecording;)
 ///
 /// \param properties A dictionary of custom Message Properties
 ///
-+ (void)logMessageWithName:(NSString * _Nonnull)messageName properties:(NSDictionary<NSString *, id> * _Nonnull)properties;
++ (void)logMessageWithName:(NSString * _Nonnull)messageName properties:(NSDictionary<NSString *, id> * _Nonnull)properties SWIFT_DEPRECATED_MSG("Use logEventWithName:properties: instead.");
 /// UserExperior SDK automatically detects ViewController and defines them as screens.
 /// However, If you have used subviews added in the existing ViewController, then we recommend to use the startScreen() method.
 /// This API allows you to manually define subviews that will be missed during auto-capturing.
@@ -832,8 +830,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isRecording;)
 /// \param viewsToExpose An array of views you want to expose.
 ///
 + (void)exposeSensitiveViewsWithViewsToExpose:(NSArray * _Nonnull)viewsToExpose;
-/// Displays consent request dialog to the user
-+ (void)displayConsentRequest;
 /// User Opted-in for user recording permission
 + (void)consentOptIn;
 /// User Opted-out for user recording permission
