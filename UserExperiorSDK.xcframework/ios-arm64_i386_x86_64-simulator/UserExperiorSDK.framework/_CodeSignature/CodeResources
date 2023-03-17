@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/UserExperiorSDK-Swift.h</key>
 		<data>
-		bcdwup1QHTpe/YFdQfE3EiIkh6c=
+		ZVxSSQXHg5DTXxMCr9c5RyBzEL0=
 		</data>
 		<key>Headers/UserExperiorSDK.h</key>
 		<data>
@@ -14,43 +14,79 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		MoxicFIJCk2qkT2+KY1v2ggorE8=
+		dyyj7AFw2SkasRwcMGEi7Ee70jM=
 		</data>
 		<key>Modules/UserExperiorSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		GHcxneRqxPgUSJTqSb5TXKraARo=
+		dBDP73ARPCCC9R9oyTlMyU6vx/Q=
 		</data>
 		<key>Modules/UserExperiorSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		InbHhTNKRstGHi+ADGMFz3NFi3M=
+		Hv6Nzj6hRkTkUQO5TRKf3CLr5GU=
 		</data>
 		<key>Modules/UserExperiorSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		vL8ITQqNFfGuLdr6ntjAHolrimg=
+		eyzx3TxnfrZ1xjQsxd7PpQbc7Ts=
+		</data>
+		<key>Modules/UserExperiorSDK.swiftmodule/arm64.swiftdoc</key>
+		<data>
+		dBDP73ARPCCC9R9oyTlMyU6vx/Q=
+		</data>
+		<key>Modules/UserExperiorSDK.swiftmodule/arm64.swiftinterface</key>
+		<data>
+		Hv6Nzj6hRkTkUQO5TRKf3CLr5GU=
+		</data>
+		<key>Modules/UserExperiorSDK.swiftmodule/arm64.swiftmodule</key>
+		<data>
+		eyzx3TxnfrZ1xjQsxd7PpQbc7Ts=
 		</data>
 		<key>Modules/UserExperiorSDK.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
-		t1/pcJqGBgmSAFc4pjUU9L+G3nE=
+		FoBkKQUDg5B4K8vCWqi6dxugyg0=
 		</data>
 		<key>Modules/UserExperiorSDK.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Oc5SQAp9GSyqEbOW22LyHlZb2VU=
+		haOvBU6Fgh6Z5uCTysiJX8M0Ajw=
 		</data>
 		<key>Modules/UserExperiorSDK.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		pBUGaObNQN66YGy+1nURX2GB5Ys=
+		V2xpKnjID8aMoyCNQ3joBVwCu+0=
+		</data>
+		<key>Modules/UserExperiorSDK.swiftmodule/i386.swiftdoc</key>
+		<data>
+		FoBkKQUDg5B4K8vCWqi6dxugyg0=
+		</data>
+		<key>Modules/UserExperiorSDK.swiftmodule/i386.swiftinterface</key>
+		<data>
+		haOvBU6Fgh6Z5uCTysiJX8M0Ajw=
+		</data>
+		<key>Modules/UserExperiorSDK.swiftmodule/i386.swiftmodule</key>
+		<data>
+		V2xpKnjID8aMoyCNQ3joBVwCu+0=
 		</data>
 		<key>Modules/UserExperiorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		u+d5xgHXrrADuqu/KbxmlmSP1P8=
+		06gaZK0HjFN8bkWjkqgC1wbKbBk=
 		</data>
 		<key>Modules/UserExperiorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		6BRwGnluekPKWPLSIpw6TS+jXqg=
+		/h4r2UoP0M57jkB6EHPRoUxwQXU=
 		</data>
 		<key>Modules/UserExperiorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		NAO3AGu6deCv2Ev2U0IE//TOupA=
+		lUN+6aSlv9vSO5yesH7b6mUQDDU=
+		</data>
+		<key>Modules/UserExperiorSDK.swiftmodule/x86_64.swiftdoc</key>
+		<data>
+		06gaZK0HjFN8bkWjkqgC1wbKbBk=
+		</data>
+		<key>Modules/UserExperiorSDK.swiftmodule/x86_64.swiftinterface</key>
+		<data>
+		/h4r2UoP0M57jkB6EHPRoUxwQXU=
+		</data>
+		<key>Modules/UserExperiorSDK.swiftmodule/x86_64.swiftmodule</key>
+		<data>
+		lUN+6aSlv9vSO5yesH7b6mUQDDU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -151,11 +187,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bcdwup1QHTpe/YFdQfE3EiIkh6c=
+			ZVxSSQXHg5DTXxMCr9c5RyBzEL0=
 			</data>
 			<key>hash2</key>
 			<data>
-			78FkkCZqpG+nRzHds8IJ0S9R8TbafjiRK5rKII5OSIY=
+			ic5YOHkdGhes1dFwYoNhQRAvsSKvtxHz2zoP8yAdP8U=
 			</data>
 		</dict>
 		<key>Headers/UserExperiorSDK.h</key>
@@ -173,99 +209,198 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GHcxneRqxPgUSJTqSb5TXKraARo=
+			dBDP73ARPCCC9R9oyTlMyU6vx/Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			/i5dd33jWnLLVaGN+2T9ytqC0r6rg9sdFN+kCzi9Iv4=
+			aFfDkpwPf5VRfueEdYZblky5yYadiDkmSWkM4Yr3WYQ=
 			</data>
 		</dict>
 		<key>Modules/UserExperiorSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			InbHhTNKRstGHi+ADGMFz3NFi3M=
+			Hv6Nzj6hRkTkUQO5TRKf3CLr5GU=
 			</data>
 			<key>hash2</key>
 			<data>
-			7iBPam8aNFKxTf00E9vxwXSRdf8DZ9IcJM95EMAVcTM=
+			SvuXuy6M5Jb0P1+tv5Rq+d4CgfiJsMcDHjSSy2VTam8=
 			</data>
 		</dict>
 		<key>Modules/UserExperiorSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vL8ITQqNFfGuLdr6ntjAHolrimg=
+			eyzx3TxnfrZ1xjQsxd7PpQbc7Ts=
 			</data>
 			<key>hash2</key>
 			<data>
-			WHuxCZppLjgKiBk1qtE2N3/XVdF4ikCvsvgR/n/X1JU=
+			9arBT370sj3oZxbCmtmC/t4qH2Z5UjE4Oop2YUOad+Q=
+			</data>
+		</dict>
+		<key>Modules/UserExperiorSDK.swiftmodule/arm64.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			dBDP73ARPCCC9R9oyTlMyU6vx/Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			aFfDkpwPf5VRfueEdYZblky5yYadiDkmSWkM4Yr3WYQ=
+			</data>
+		</dict>
+		<key>Modules/UserExperiorSDK.swiftmodule/arm64.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Hv6Nzj6hRkTkUQO5TRKf3CLr5GU=
+			</data>
+			<key>hash2</key>
+			<data>
+			SvuXuy6M5Jb0P1+tv5Rq+d4CgfiJsMcDHjSSy2VTam8=
+			</data>
+		</dict>
+		<key>Modules/UserExperiorSDK.swiftmodule/arm64.swiftmodule</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			eyzx3TxnfrZ1xjQsxd7PpQbc7Ts=
+			</data>
+			<key>hash2</key>
+			<data>
+			9arBT370sj3oZxbCmtmC/t4qH2Z5UjE4Oop2YUOad+Q=
 			</data>
 		</dict>
 		<key>Modules/UserExperiorSDK.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			t1/pcJqGBgmSAFc4pjUU9L+G3nE=
+			FoBkKQUDg5B4K8vCWqi6dxugyg0=
 			</data>
 			<key>hash2</key>
 			<data>
-			d7vgADZLu0dTVqsN8UBsdK1ic873VJsQNathI+elsUk=
+			jxTFNWahX52Ru89ZOzPR0j5fRkB4k7Y+ZmFF0rwsK7Q=
 			</data>
 		</dict>
 		<key>Modules/UserExperiorSDK.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Oc5SQAp9GSyqEbOW22LyHlZb2VU=
+			haOvBU6Fgh6Z5uCTysiJX8M0Ajw=
 			</data>
 			<key>hash2</key>
 			<data>
-			PhZAb/W9LYbhsdfd6DhQ2lD0UHdCfAvY4qqWpnXeZIY=
+			taG2iVus3KYwUp1w2RtySCXnxghKuzG134e4pGuSiZw=
 			</data>
 		</dict>
 		<key>Modules/UserExperiorSDK.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pBUGaObNQN66YGy+1nURX2GB5Ys=
+			V2xpKnjID8aMoyCNQ3joBVwCu+0=
 			</data>
 			<key>hash2</key>
 			<data>
-			OHol/IZ0dz7KnBimviy6cHgq5Q0naBq86viT5F2aSIY=
+			bk1WMqT5j9T02kOm2b7HrTjA/xjW/FKuz8fJ/OBFaiI=
+			</data>
+		</dict>
+		<key>Modules/UserExperiorSDK.swiftmodule/i386.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FoBkKQUDg5B4K8vCWqi6dxugyg0=
+			</data>
+			<key>hash2</key>
+			<data>
+			jxTFNWahX52Ru89ZOzPR0j5fRkB4k7Y+ZmFF0rwsK7Q=
+			</data>
+		</dict>
+		<key>Modules/UserExperiorSDK.swiftmodule/i386.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			haOvBU6Fgh6Z5uCTysiJX8M0Ajw=
+			</data>
+			<key>hash2</key>
+			<data>
+			taG2iVus3KYwUp1w2RtySCXnxghKuzG134e4pGuSiZw=
+			</data>
+		</dict>
+		<key>Modules/UserExperiorSDK.swiftmodule/i386.swiftmodule</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			V2xpKnjID8aMoyCNQ3joBVwCu+0=
+			</data>
+			<key>hash2</key>
+			<data>
+			bk1WMqT5j9T02kOm2b7HrTjA/xjW/FKuz8fJ/OBFaiI=
 			</data>
 		</dict>
 		<key>Modules/UserExperiorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			u+d5xgHXrrADuqu/KbxmlmSP1P8=
+			06gaZK0HjFN8bkWjkqgC1wbKbBk=
 			</data>
 			<key>hash2</key>
 			<data>
-			JkQKUE57chm/wjkQnawr4IlxH5tREjDvZMRYR3gotzc=
+			ICW518tk4JkollZnfY0cY2OasZP/jjPaBcVvMusMIcA=
 			</data>
 		</dict>
 		<key>Modules/UserExperiorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6BRwGnluekPKWPLSIpw6TS+jXqg=
+			/h4r2UoP0M57jkB6EHPRoUxwQXU=
 			</data>
 			<key>hash2</key>
 			<data>
-			OR+Qd2dRNNEDAB9XJkZldvGP1Xebmb5BBN5ZS0bRR50=
+			oAQHRCr+9sMHRxjd8yuXImJorCbVVap09GV+62tccKw=
 			</data>
 		</dict>
 		<key>Modules/UserExperiorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NAO3AGu6deCv2Ev2U0IE//TOupA=
+			lUN+6aSlv9vSO5yesH7b6mUQDDU=
 			</data>
 			<key>hash2</key>
 			<data>
-			G3a+T6x9OaTKUlLrIu9OJY9N0aF2XghaIOR3gY7OTFo=
+			CJpQO2xNGlVreFWH9fY6JRUZAOVI4XT3VfHggJLo0As=
+			</data>
+		</dict>
+		<key>Modules/UserExperiorSDK.swiftmodule/x86_64.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			06gaZK0HjFN8bkWjkqgC1wbKbBk=
+			</data>
+			<key>hash2</key>
+			<data>
+			ICW518tk4JkollZnfY0cY2OasZP/jjPaBcVvMusMIcA=
+			</data>
+		</dict>
+		<key>Modules/UserExperiorSDK.swiftmodule/x86_64.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/h4r2UoP0M57jkB6EHPRoUxwQXU=
+			</data>
+			<key>hash2</key>
+			<data>
+			oAQHRCr+9sMHRxjd8yuXImJorCbVVap09GV+62tccKw=
+			</data>
+		</dict>
+		<key>Modules/UserExperiorSDK.swiftmodule/x86_64.swiftmodule</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lUN+6aSlv9vSO5yesH7b6mUQDDU=
+			</data>
+			<key>hash2</key>
+			<data>
+			CJpQO2xNGlVreFWH9fY6JRUZAOVI4XT3VfHggJLo0As=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
