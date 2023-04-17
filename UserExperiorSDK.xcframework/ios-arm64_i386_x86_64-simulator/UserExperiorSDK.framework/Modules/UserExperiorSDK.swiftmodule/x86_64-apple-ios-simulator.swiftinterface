@@ -14,6 +14,7 @@ import ImageIO
 import MapKit
 import MobileCoreServices
 import UserExperiorSDK.Private
+import SafariServices
 import Swift
 import SystemConfiguration
 import UIKit

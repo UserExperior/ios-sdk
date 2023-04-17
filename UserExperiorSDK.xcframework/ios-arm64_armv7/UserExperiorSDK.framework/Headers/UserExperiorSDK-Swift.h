@@ -426,6 +426,7 @@ SWIFT_PROTOCOL_NAMED("UserExperiorDelegate")
 - (void)userExperiorSessionStarted SWIFT_DEPRECATED_MSG("Use userExperiorSessionDidStart instead.");
 @end
 
+
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
 #endif
@@ -858,6 +859,7 @@ SWIFT_PROTOCOL_NAMED("UserExperiorDelegate")
 - (void)userExperiorSessionDidStart;
 - (void)userExperiorSessionStarted SWIFT_DEPRECATED_MSG("Use userExperiorSessionDidStart instead.");
 @end
+
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
