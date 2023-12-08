@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
     s.name                    = 'UserExperior'
-    s.version                 = '6.0.1'
+    s.version                 = '6.0.2'
     s.summary                 = 'Understand and fix user experience issues.'
     s.homepage                = 'https://www.userexperior.com/'
 
@@ -8,8 +8,7 @@ Pod::Spec.new do |s|
     s.license                 = { :type => 'Apache-2.0', :file => 'LICENSE' }
 
     s.platform                = :ios
-    s.source                  = { :git => "https://github.com/UserExperior/ios-sdk", :tag => s.version }
-
+    s.source                  = { :http => "https://raw.githubusercontent.com/UserExperior/ios-sdk/#{s.version}/UserExperiorSDK.xcframework.zip" }
     s.ios.deployment_target   = '11.0'
     s.ios.vendored_frameworks = 'UserExperiorSDK.xcframework'
     s.preserve_paths          = 'UserExperiorSDK.xcframework'
