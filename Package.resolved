@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "uecrashreporter",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/UserExperior/UECrashReporter.git",
+      "state" : {
+        "revision" : "8df439bf39e44de1507480ce4e139ef86c0d3456",
+        "version" : "1.0.6"
+      }
+    }
+  ],
+  "version" : 2
+}

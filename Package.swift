@@ -3,8 +3,8 @@
 
 import PackageDescription
 
-let version = "6.0.2"
-let checksum = "1cc0f70d820b684dd9aced8d3e710e1f2f40fb4932f8cc7315c1da1ee4a911e5"
+let version = "6.0.3"
+let checksum = "7719ce4f896eaf93fd17a21a0d298c95a4f397707c3b82c6baad902e6422da62"
 let repoName = "ios-sdk"
 
 let package = Package(
@@ -19,7 +19,7 @@ let package = Package(
     ],
     
     dependencies: [
-        .package(url: "https://github.com/UserExperior/UECrashReporter.git", from: "1.0.3")
+        .package(url: "https://github.com/UserExperior/UECrashReporter.git", .upToNextMajor(from: "1.0.6"))
     ],
     
     targets: [
