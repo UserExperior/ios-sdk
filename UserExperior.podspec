@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
     s.name                    = 'UserExperior'
-    s.version                 = '6.0.3'
+    s.version                 = '6.0.4'
     s.summary                 = 'Understand and fix user experience issues.'
     s.homepage                = 'https://www.userexperior.com/'
 
