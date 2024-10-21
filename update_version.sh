@@ -54,18 +54,6 @@ sed -i '' "s|s.source *= *{.*}|s.source                  = { :http => \"https://
 
 echo "Updated version to $NEW_VERSION and checksum to $CHECKSUM in both Package.swift and $USEREXPERIOR_PODSPEC_FILE"
 
-# Lint the podspec files (local check)
-# echo "Running podspec linting for local validation..."
-# pod spec lint "$USEREXPERIOR_PODSPEC_FILE"
-# pod spec lint "$UECRASHREPORTER_PODSPEC_FILE"
-
-# # Push the podspec files to trunk with allow-warnings
-# echo "Pushing podspecs to CocoaPods trunk..."
-# pod trunk push "$USEREXPERIOR_PODSPEC_FILE" --allow-warnings
-# pod trunk push "$UECRASHREPORTER_PODSPEC_FILE" --allow-warnings
-
-# echo "Podspecs have been pushed to CocoaPods trunk."
-
 # Stage, commit, and push all changes to the master branch
 echo "Staging and committing changes..."
 git add .
@@ -78,3 +66,14 @@ git tag "$NEW_VERSION"
 git push origin "$NEW_VERSION"
 
 echo "Version $NEW_VERSION has been tagged and pushed to the Git repository."
+
+# Lint the podspec files (local check)
+echo "Running podspec linting for local validation..."
+pod spec lint "$USEREXPERIOR_PODSPEC_FILE"
+
+# # Push the podspec files to trunk with allow-warnings
+echo "Pushing podspecs to CocoaPods trunk..."
+pod trunk push "$USEREXPERIOR_PODSPEC_FILE" --allow-warnings
+
+echo "Podspecs have been pushed to CocoaPods trunk."
+
